@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/dice_roller.dart';
 
 var startAlignment = Alignment.topLeft;
 var endAlignment = Alignment.bottomRight;
@@ -21,8 +22,8 @@ class GradientContainer extends StatelessWidget {
           end: endAlignment,
         ),
       ),
-      child: Center(
-        child: Image.asset('assets/images/dice-1.png'),
+      child: const Center(
+        child: DiceRoller(),
       ),
     );
   }

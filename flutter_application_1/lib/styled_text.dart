@@ -9,8 +9,8 @@ class StyledText extends StatelessWidget {
     return Text(
       text,
       style: const TextStyle(
-        color: Colors.white,
-        backgroundColor: Color.fromARGB(255, 234, 100, 144),
+        color: Color.fromARGB(255, 223, 14, 14),
+        // backgroundColor: Color.fromARGB(255, 241, 188, 89),
         fontSize: 50.0,
       ),
     );
