@@ -21,7 +21,7 @@ class _DiceRollerstate extends State<DiceRoller> {
 
   @override
   Widget build(context) {
-    return Row(mainAxisSize: MainAxisSize.min, children: [
+    return Column(mainAxisSize: MainAxisSize.min, children: [
       Image.asset(
         'assets/images/dice-$currentroll.png',
         width: 200,
